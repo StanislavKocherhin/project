@@ -31,22 +31,25 @@
 // const category = 'toys';
 // console.log(`https:udemy.com/${category}/5`);
 // console.log(2*3 && 5+1 == '6');
-const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    geners: [],
-    privat: false
-};
+//12 Lesson
 
- const a = prompt('Cколько фильмов вы уже просмотрели?', ''),
-       b = prompt('На сколько оцените его?', ''),
-       c =  prompt('Cколько фильмов вы уже просмотрели?', ''),
-       d = prompt('На сколько оцените его?', '');
+// const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     geners: [],
+//     privat: false
+// };
 
-console.log(personalMovieDB);
+//  const a = prompt('Cколько фильмов вы уже просмотрели?', ''),
+//        b = prompt('На сколько оцените его?', ''),
+//        c =  prompt('Cколько фильмов вы уже просмотрели?', ''),
+//        d = prompt('На сколько оцените его?', '');
+
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+// console.log(personalMovieDB);
